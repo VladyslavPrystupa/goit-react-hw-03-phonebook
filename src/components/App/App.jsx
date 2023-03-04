@@ -41,13 +41,7 @@ export class App extends Component {
     this.setState(({ contacts }) => ({
       contacts: contacts.filter(contact => contact.id !== id),
     }));
-    // const indexOfContact = this.state.contacts.findIndex(
-    //   contact => contact.id === id
-    // );
-    // this.state.contacts.splice(indexOfContact, 1);
-    // this.setState(prevState => {
-    //   return { contacts: prevState.contacts };
-    // });
+ 
   };
 
   render() {
