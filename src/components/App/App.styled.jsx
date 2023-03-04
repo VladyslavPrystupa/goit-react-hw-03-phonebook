@@ -11,7 +11,7 @@ export const Section = styled.section``;
 
 export const Header = styled.h1`
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   font-family: 'Courier New', Courier, monospace;
   line-height: normal;
   color: coral;
